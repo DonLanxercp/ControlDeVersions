@@ -49,7 +49,7 @@ public class Practica1 {
 
             String numero2;
             do {
-                System.out.println("\n Introdueix el segon numero.");
+                System.out.println("\n Introdueix el segon número.");
                 numero2 = sc.nextLine();
             } while (!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
             double nume2 = Double.parseDouble(numero2);
