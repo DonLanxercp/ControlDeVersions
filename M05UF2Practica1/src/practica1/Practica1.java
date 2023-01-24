@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package practica1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author esther
- */
+
 public class Practica1 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double res = 0;
@@ -59,7 +50,7 @@ public class Practica1 {
                 comprobar = true;
                 switch (operacion) {
                     case "+":
-                        res = n2 + n2;
+                        res = n1 + n2;
                         break;
                     case "-":
                         res = n1 - n2;
@@ -81,7 +72,7 @@ public class Practica1 {
                         res = n1 / n2;
                         break;
                     case "*":
-                        res = Math.pow(n1, n1);
+                        res = Math.pow(n1, n2);
                         break;
                     case "%":
                         while (n2 == 0) {
