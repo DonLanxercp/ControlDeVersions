@@ -17,16 +17,16 @@ public class Practica1 {
 
             String numero1;
             do {
-                System.out.println("\n Introdueix el primer numero. ");
+                System.out.println("\n 1er NUM. ");
                 numero1 = sc.nextLine();
             } while (!numero1.matches("[+-]?[\\d]*[.]?[\\d]+"));
             double nume1 = Double.parseDouble(numero1);
             double n1 = new Double(numero1);
 
             do {
-                System.out.println("\n Operació? (Indica el signe)");
-                System.out.println("+ = sumar \n - = restar \n"
-                        + " x = multiplicar \n / = dividir \n * = elevar primer num al segon num."
+                System.out.println("\n Selecciona un operand");
+                System.out.println(" + = sumar \n - = restar \n"
+                        + " x = multiplicar \n / = dividir \n * = Eleva NUM 1 a NUM 2."
                         + "\n % = residu");
                 operacion = sc.nextLine();
                 if (operacion.equals("+") || operacion.equals("-") || operacion.equals("x")
@@ -40,7 +40,7 @@ public class Practica1 {
 
             String numero2;
             do {
-                System.out.println("\n Introdueix el segon número.");
+                System.out.println("\n 2on NUM");
                 numero2 = sc.nextLine();
             } while (!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
             double nume2 = Double.parseDouble(numero2);
